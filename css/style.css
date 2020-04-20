@@ -126,3 +126,25 @@ html{ scroll-behavior: smooth; }
     font-size: 30px; }
 }
 
+@media(max-width: 780px)
+{
+  .col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 0;
+    max-width: 116%;
+}
+.col-a {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.ml-a{
+  margin-left: 0rem!important;
+}
+.update p {
+  text-align: center;
+}
+.imgi
+{
+  margin: 0 auto;
+}
+}
